@@ -1,6 +1,6 @@
 import React from "react";
 import cardimage from "../assets/productcardimage.png";
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "../components/ServiceCard";
 
 const Product = () => {
   return (
