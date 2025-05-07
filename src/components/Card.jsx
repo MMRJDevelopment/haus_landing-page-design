@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServiceCard = ({ cardimage, title }) => {
+const Card = ({ cardimage, title }) => {
   return (
     <div className="w-[387px] h-[573px] rounded-[10px] card ">
       <div className="w-full  h-[271px]">
@@ -62,4 +62,4 @@ const ServiceCard = ({ cardimage, title }) => {
   );
 };
 
-export default ServiceCard;
+export default Card;
