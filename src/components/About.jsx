@@ -6,9 +6,9 @@ import aboutbg from "../assets/aboutbg.png";
 
 function About() {
   return (
-    <div className="xl:w-[75rem] flex   mx-auto ">
-      <div className="w-1/2">
-        <div className="flex justify-between items-center h-[422px]">
+    <div className="xl:w-[75rem] flex px-4 md:px-8 sm:px-6 lg:px-10 xl:px-0  mx-auto  flex-col lg:flex-row">
+      <div className="lg:w-1/2 ">
+        <div className="flex justify-between items-center xl:h-[422px]">
           <div className="w-[194px] h-[422px] rounded-[12px] hover:scale-95  duration-700 ease-in-out">
             <img
               src={about1}
@@ -24,12 +24,16 @@ function About() {
             />
           </div>
           <div className="w-[194px] h-[422px] rounded-[12px] hover:scale-95  duration-700 ease-in-out">
-            <img src={about3} alt="" />
+            <img
+              src={about3}
+              alt=""
+              className="w-full h-[422px] bg-cover bg-center "
+            />
           </div>
         </div>
       </div>
-      <div className="w-1/2 pl-11 relative">
-        <div className="z-10">
+      <div className="lg:w-1/2 lg:pl-11 pt-6 sm:pt-0 relative">
+        <div className="z-10 sm:mt-6">
           {" "}
           <h2 className="text-[#1A1A1A] font-pops  font-medium xl:text-[48px]">
             Über mich
@@ -50,11 +54,12 @@ function About() {
             lassen und mich in meiner eigenen kreativen Welt zu verlieren.
             Einige dieser Werke möchte ich nun mit euch teilen.
           </p>
-          <button className="btn-primary mt-4 ml-4">
-            Kontaktieren Sie mich
-          </button>
+          <div className="mt-6 md:ml-4 flex justify-center md:justify-start">
+            {" "}
+            <button className="btn-primary   ">Kontaktieren Sie mich</button>
+          </div>
         </div>
-        <div className=" absolute -bottom-20  right-0 -z-10">
+        <div className=" absolute xl:-bottom-20 bottom-0 sm:-bottom-10   xl:-right-10 -z-10">
           <img src={aboutbg} alt="" />
         </div>
       </div>

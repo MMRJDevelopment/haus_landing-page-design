@@ -9,7 +9,7 @@ const Home = () => {
       <Banner />
       <Product />
       <About />
-      <p className="font-pops text-sm text-[#000] text-center mt-25 mb-6">
+      <p className="font-pops text-sm text-[#000] text-center mt-25 mb-6 ">
         Copyright © 2025.KREATIV HAUS. All right reserved
       </p>
     </div>

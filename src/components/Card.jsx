@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ cardimage, title }) => {
   return (
-    <div className="w-[387px] h-[573px] rounded-[10px] card ">
+    <div className="lg:w-[387px] w-full h-[573px] rounded-[10px] card ">
       <div className="w-full  h-[271px]">
         <img
           src={cardimage}
